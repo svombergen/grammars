@@ -1,0 +1,4 @@
+for $e in collection("elem")
+group by $e.groupnr
+order by $e.groupnr
+return $e.groupnr
