@@ -1,4 +1,4 @@
 SELECT e.groupnr
-FROM elem AS e
+FROM elem
 GROUP BY e.groupnr
 ORDER BY e.groupnr;

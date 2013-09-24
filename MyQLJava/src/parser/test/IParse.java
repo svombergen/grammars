@@ -1,7 +1,7 @@
 package parser.test;
 
-import org.uva.sea.ql.ast.Expr;
+import ast_unql.transaction.Transaction;
 
 public interface IParse {
-	Expr parse(String src) throws ParseError;
+	Transaction parseTransaction(String src) throws ParseError;
 }
